@@ -1,16 +1,13 @@
-# test_automation
+# zisky-flutter-ussd-automation
 
-A new Flutter application.
+An example to automate android ussd session using zisky sdk
 
-## Getting Started
+https://pub.dev/packages/zisky/versions/0.0.1
 
-This project is a starting point for a Flutter application.
+##  Configs
 
-A few resources to get you started if this is your first Flutter project:
+-Manifest must have the following config
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+`<meta-data
+                 android:name="co.zisky.ApiKey"
+                 android:value="your_api_key"/>`
