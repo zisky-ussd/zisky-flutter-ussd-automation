@@ -70,7 +70,9 @@ class _MyHomePageState extends State<MyHomePage> {
       ActionResponse responseObj =
           ActionResponse.fromJson(jsonDecode(response));
 
-      if (responseObj.parsed_variables.containsKey("balance")) {
+      if (responseObj.parsed_variables != null &&
+          responseObj.parsed_variables.isNotEmpty &&
+          responseObj.parsed_variables.containsKey("balance")) {
         setState(() {
           result = "\$" + responseObj.parsed_variables["balance"];
         });
