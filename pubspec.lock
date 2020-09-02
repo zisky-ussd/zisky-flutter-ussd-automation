@@ -187,9 +187,9 @@ packages:
   zisky:
     dependency: "direct main"
     description:
-      name: zisky
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.0.1"
+      path: "../zisky-flutter-plugin"
+      relative: true
+    source: path
+    version: "0.0.4"
 sdks:
   dart: ">=2.6.0 <3.0.0"

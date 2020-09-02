@@ -6,7 +6,10 @@ import 'package:flutter/services.dart';
 import 'package:zisky/action-response.dart';
 import 'package:zisky/zisky.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(MyApp());
+  Zisky.init();
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
