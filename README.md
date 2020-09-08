@@ -2,7 +2,7 @@
 
 An example to automate android ussd session using zisky sdk
 
-https://pub.dev/packages/zisky/versions/0.0.5
+[Zisky latest versions](https://pub.dev/packages/zisky/versions)
 
 ##  Configs
 
